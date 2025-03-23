@@ -1,6 +1,6 @@
 # Pr0Teens
 Website for Pr0Teens Robotics
-Link: https://ftc-pr0teens.github.io/Pr0Teens/index.html
+Link: https://ftc-pr0teens.github.io/
 
 Credits(Github Username): 
 1. Irisimoo
