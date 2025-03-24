@@ -8,19 +8,18 @@ body {
     background-color: #000000;
 }
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #000000;
-    padding: 10px;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 5px; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 10px 0;
     }
 .navbar a {
     color: white;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 14px 20px;
     color: #FFD700; /* Golden text color */
 }
 .navbar a:hover {
@@ -33,9 +32,9 @@ body {
     height: 80px;
 }
 .carousel-container {
-    position: absolute;
+    position: relative;
     max-width: 600px;
-    margin: 20px auto;
+    margin: 80px auto 20px; /* Adjust margin to avoid navbar overlap */
     overflow: hidden;
     background-color: #f4f4f4;
     border-radius: 10px;
@@ -43,10 +42,11 @@ body {
 .carousel {
     display: flex;
     transition: transform 0.5s ease-in-out;
+    position: relative;
 }
 .carousel img {
     width: 600px;
-    height: 450px;
+    height: 250px;
     object-fit: cover;
     border-radius: 10px;
 }
