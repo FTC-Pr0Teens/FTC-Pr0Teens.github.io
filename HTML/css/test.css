@@ -40,20 +40,24 @@ body {
     margin: 80px auto 20px; /* Adjust margin to avoid navbar overlap */
     overflow: hidden;
     background-color: #f4f4f4;
-    border-radius: 10px;
 }
 .carousel {
     display: flex;
     transition: transform 0.5s ease-in-out;
     position: relative;
 }
+.slide {
+    min-width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .carousel img {
     width: 600px;
-    height: 250px;
+    height: 350px;
     object-fit: cover;
-    border-radius: 10px;
 }
-
 .caption {
     position: absolute;
     bottom: 10px;
@@ -63,19 +67,24 @@ body {
     font-size: 16px;
     text-align: center;
 }
-
 .prev, .next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
     padding: 10px;
     cursor: pointer;
+    font-size: 20px;
+    z-index: 10;
 }
-.prev { left: 10px; }
-.next { right: 10px; }
+.prev {
+    left: 10px;
+}
+.next {
+    right: 10px;
+}
 h1 {
     font-size: 20px;
     text-align: center;
