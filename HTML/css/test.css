@@ -37,7 +37,7 @@ body {
 .carousel-container {
     position: relative;
     max-width: 600px;
-    margin: 50px auto 20px; /* Adjust margin to avoid navbar overlap */
+    margin: 20px auto 20px; /* Adjust margin to avoid navbar overlap */
     overflow: hidden;
     background-color: #f4f4f4;
 }
