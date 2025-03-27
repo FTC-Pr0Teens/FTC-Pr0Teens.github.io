@@ -15,7 +15,6 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: black;
-    z-index: 500;
 }
 .navbar a {
     color: white;
@@ -88,7 +87,7 @@ body {
 h1 {
     font-size: 20px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 150px;
     color: white;
     position: relative;
 }
@@ -106,11 +105,11 @@ h1 {
     margin-left: 10px;
     color: white;
 }
-. ul{
+#navbar ul{
     padding: 0;
     list-style: none;
 }
-.li{
+#navbar li{
     display: inline;
 }
 .button {
