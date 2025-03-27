@@ -99,6 +99,20 @@ h1 {
     margin: 10px auto;
     color: white;
 }
+.firstintro {
+    font-size: 12px;
+    text-align: left;
+    max-width: 600px;
+    margin-left: 10px;
+    color: white;
+}
+. ul{
+    padding: 0;
+    list-style: none;
+}
+.li{
+    display: inline;
+}
 .button {
     font: 15px Verdana;
     font-weight: 900;
