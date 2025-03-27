@@ -21,7 +21,7 @@ body {
     color: white;
     text-decoration: none;
     padding: 0px 20px;
-    margin-left: 5px;   
+    margin-left: 15px;
     color: #FFD700; /* Golden text color */
     font-size: 14px;
 }
@@ -32,12 +32,13 @@ body {
     display: flex;
 }
 .logo img {
-    height: 90px;
+    height: 100px;
 }
 .carousel-container {
     position: relative;
     max-width: 600px;
-    margin-top: 10px; /* Adjust margin to avoid navbar overlap */
+    margin-top: 10px;
+    align-items: center;
     overflow: hidden;
     background-color: #f4f4f4;
 }
@@ -88,7 +89,7 @@ body {
 h1 {
     font-size: 20px;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 50px;
     color: white;
     position: relative;
 }
@@ -98,4 +99,17 @@ h1 {
     max-width: 600px;
     margin: 10px auto;
     color: white;
+}
+.button {
+    font: 15px Verdana;
+    font-weight: 900;
+    text-decoration: none;
+    background-color: #FFD700; /* Golden background */
+    color: #ffffff; /* White text */
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #DAA520; /* Darker golden color on hover */
 }
