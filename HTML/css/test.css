@@ -20,7 +20,7 @@ body {
 .navbar a {
     color: white;
     text-decoration: none;
-    padding: 0px 20px;
+    padding: 0px 15px;
     margin-left: 10px;
     margin-right: 15px;
     color: #FFD700; /* Golden text color */
@@ -39,7 +39,7 @@ body {
     position: relative;
     max-width: 600px;
     margin-top: 10px;
-    align-items: center;
+    margin: 10px auto 20px; /* Adjust margin to avoid navbar overlap */
     overflow: hidden;
     background-color: #f4f4f4;
 }
@@ -58,7 +58,6 @@ body {
 .carousel img {
     width: 600px;
     height: 350px;
-    align-items: center;
     object-fit: cover;
 }
 .caption {
