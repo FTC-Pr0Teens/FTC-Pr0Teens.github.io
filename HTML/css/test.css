@@ -16,6 +16,7 @@ body {
     justify-content: space-between;
     background-color: black;
     padding: 3px 0;
+    z-index: 500;
 }
 .navbar a {
     color: white;
@@ -88,7 +89,7 @@ body {
 h1 {
     font-size: 20px;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 125px;
     color: white;
     position: relative;
 }
@@ -98,20 +99,6 @@ h1 {
     max-width: 600px;
     margin: 10px auto;
     color: white;
-}
-.firstintro {
-    font-size: 12px;
-    text-align: left;
-    max-width: 600px;
-    margin-left: 10px;
-    color: white;
-}
-#navbar ul{
-    padding: 0;
-    list-style: none;
-}
-#navbar li{
-    display: inline;
 }
 .button {
     font: 15px Verdana;
@@ -156,8 +143,8 @@ h1 {
     gap: 10px;
 }
 .first-images img {
-    width: 150px;
-    height: 150px;
+    width: auto;
+    height: 500px;
     object-fit: cover;
     border-radius: 10px;
 }
