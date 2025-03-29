@@ -25,6 +25,7 @@ body {
     text-decoration: none;
     color: #FFD700;
     font size: 12px;
+    right-margin: 5px;
 }
 
 .navbar a:hover {
@@ -112,6 +113,10 @@ h1 {
     border-radius: 5px;
 }
 
+.button:hover {
+    background-color: #DAA520; /* Darker golden color on hover */
+}
+
 #main-footer{
     background-color: #FFD700;
     color: white;
@@ -131,6 +136,8 @@ h1 {
 }
 .first-content {
     max-width: 50%;
+    font-size: 12px:
+    color: #ffffff;
 }
 .first-content h2 {
     font-size: 20px;
@@ -138,29 +145,13 @@ h1 {
 }
 .first-content ul {
     padding-left: 20px;
-    font-size: 12px:
-    color: #ffffff;
 }
 .first-images {
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 .first-images img {
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
-    align-items: center;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
-}
-.button {
-    font: 15px Verdana;
-    font-weight: 900;
-    text-decoration: none;
-    background-color: #FFD700; /* Golden background */
-    color: #ffffff; /* White text */
-    padding: 15px 30px;
-    border-radius: 15px;
-}
-.button:hover {
-    background-color: #DAA520; /* Darker golden color on hover */
 }
