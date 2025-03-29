@@ -20,12 +20,12 @@ body {
 .navbar .menu {
     display: flex;
     gap: 20px;
-    right-margin: 30px;
 }
 .navbar .menu a {
     text-decoration: none;
     color: #FFD700;
     font size: 12px;
+    right-margin: 25px;
 }
 
 .navbar a:hover {
@@ -130,15 +130,15 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    max-width: 700px;
+    max-width: 900px;
     margin: 50px auto;
     padding: 20px;
 }
 .first-content {
     max-width: 50%;
     font-size: 12px:
-    color: white;
-    margin: 50px;
+    color: #ffffff;
+    margin: 20px;
 }
 .first-content h2 {
     font-size: 20px;
@@ -152,7 +152,6 @@ h1 {
     gap: 15px;
 }
 .first-images img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
+    width: 200px;
+    height: 200px;
 }
