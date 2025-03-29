@@ -134,12 +134,12 @@ h1 {
 }
 .first-content h2 {
     font-size: 20px;
-    font-color: white;
+    color: #ffffff;
 }
 .first-content ul {
     padding-left: 20px;
     font-size: 12px:
-    font-color: white;
+    color: #ffffff;
 }
 .first-images {
     display: flex;
@@ -150,6 +150,7 @@ h1 {
     height: 300px;
     border-radius: 10px;
     align-items: center;
+    object-fit: cover;
 }
 .button {
     font: 15px Verdana;
