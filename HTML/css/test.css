@@ -152,6 +152,6 @@ h1 {
     gap: 15px;
 }
 .first-images img {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
 }
