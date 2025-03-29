@@ -13,11 +13,10 @@ body {
     width: 100%;
     background-color: black;
     z-index: 1000;
-    padding: 1px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 1px 5px;
 }
 .navbar .menu {
     display: flex;
@@ -130,8 +129,6 @@ h1 {
     max-width: 1000px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 10px;
 }
 .first-content {
     max-width: 50%;
@@ -147,9 +144,8 @@ h1 {
     gap: 10px;
 }
 .first-images img {
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
+    width: 10px;
+    height: 10px;
     border-radius: 10px;
 }
 .button {
