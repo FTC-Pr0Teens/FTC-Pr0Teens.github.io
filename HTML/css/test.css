@@ -135,18 +135,21 @@ h1 {
 }
 .first-content h2 {
     font-size: 20px;
+    color: white;
 }
 .first-content ul {
     padding-left: 20px;
+    color: white;
 }
 .first-images {
     display: flex;
     gap: 10px;
 }
 .first-images img {
-    width: 10px;
-    height: 10px;
+    width: 50px;
+    height: 50px;
     border-radius: 10px;
+    align-items: center;
 }
 .button {
     font: 15px Verdana;
