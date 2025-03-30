@@ -137,7 +137,7 @@ h1 {
     padding: 20px;
 }
 .first-content {
-    max-width: 60%;
+    max-width: 80%;
     font-size: 12px;
     color: white;
 }
@@ -152,7 +152,7 @@ h1 {
     gap: 15px;
 }
 .first-image1 img {
-    max-width: 30%;
+    max-width: 100%;
     height: auto;
 }
 .first-image2 img {
