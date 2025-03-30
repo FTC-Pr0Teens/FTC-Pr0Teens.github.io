@@ -137,10 +137,9 @@ h1 {
     padding: 20px;
 }
 .first-content {
-    max-width: 50%;
+    max-width: 60%;
     font-size: 12px;
     color: white;
-
 }
 .first-content h2 {
     font-size: 20px;
@@ -153,10 +152,10 @@ h1 {
     gap: 15px;
 }
 .first-image1 img {
-    max-width: auto;
-    height: 50%;
+    max-width: 30%;
+    height: auto;
 }
 .first-image2 img {
-    max-width: 50%;
+    max-width: 40%;
     height: auto;
 }
