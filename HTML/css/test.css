@@ -37,7 +37,8 @@ body {
     display: flex;
 }
 .logo img {
-    height: 50px;
+    margin-top: 5px:
+    height: 45px;
 }
 .carousel-container {
     position: relative;
@@ -137,7 +138,7 @@ h1 {
     padding: 20px;
 }
 .first-content {
-    max-width: 500%;
+    flex: 10;
     color: white;
     font-size: 12px;
     padding: 20px;
