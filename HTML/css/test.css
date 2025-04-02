@@ -140,7 +140,7 @@ h1 {
     max-width: 500%;
     color: white;
     font-size: 12px;
-    padding: 100px;
+    padding: 20px;
 }
 .first-content h2 {
     font-size: 20px;
@@ -160,5 +160,5 @@ h1 {
 .first-image2 img {
     max-width: 40%;
     height: auto;
-    margin-left: 50px;
+    margin-left: 100px;
 }
