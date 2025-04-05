@@ -141,7 +141,6 @@ h1 {
     max-width: 600px;
     color: white;
     font-size: 12px;
-    padding: 20px;
 }
 .first-content h2 {
     font-size: 20px;
@@ -150,14 +149,14 @@ h1 {
     padding-left: 20px;
 }
 .first-images {
-    max-width: 200px;
+    max-width: 300px;
     display: flex;
 }
 .first-image1 img {
-    max-width: 100px;
+    max-width: 150px;
     height: auto;
 }
 .first-image2 img {
-    max-width: 70px;
+    max-width: 100px;
     height: auto;
 }
