@@ -147,13 +147,14 @@ h1 {
 }
 .first-content ul {
     padding-left: 20px;
+    margin-bottom: 20px;
 }
 .first-images {
     max-width: 300px;
     display: flex;
 }
 .first-image1 img {
-    max-width: 150px;
+    max-width: 200px;
     height: auto;
 }
 .first-image2 img {
